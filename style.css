@@ -40,3 +40,45 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+/* .expriences-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10 25px gray;
+
+} */
+.expriences-item{
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:20px;
+    padding-right:20px;
+    box-shadow: 15px 15px 25px gray;
+    /* transition: 0.6s; */
+}
+/* .expriences-item:hover{
+    transform: scale(1.07);
+} */
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightblue, tomato);
+    border-image-slice: 1;
+}
+#baby1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    margin-top:40px;
+    margin-bottom:40px;
+
+    text-align:center;
+}
